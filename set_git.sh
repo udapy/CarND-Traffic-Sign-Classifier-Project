@@ -10,6 +10,12 @@ read -p 'Git repository url: ' upstreamVar
 read -p 'Git Username: ' userVar
 read -p 'Git email: ' emailVar
 
+"""
+upstreamVar = "https://github.com/udapy/CarND-Traffic-Sign-Classifier-Project.git"
+userVar = "udapy"
+emailVar = "udayphlk@gmail.com"
+"""
+
 echo
 echo Thank you $userVar!, we now have your credentials
 echo for upstream $upstreamVar. You must supply your password for each push.
